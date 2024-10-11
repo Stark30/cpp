@@ -23,9 +23,10 @@ int main() {
                 printf("Unknown state\n");
                 break;
         }
+    
+        printf("Button Pressed. RED LED is %d\n",cur_state);
         printf("\nInput: (y: to toggle switch. /n: to stop): ");
         scanf(" %c", &button);
     }
-
     return 0;
 }
